@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.hero {
+    background: linear-gradient(0deg, #454545 0%, #000000 100%);
+    margin: 50px 0 0 0;
+}
+
+/* navbar */
+.nav-custom {
+    background: black;
+}
+
+.navbar-brand {
+    color: white;
+    margin-left: 245px;
+}
+
+.navbar-nav {
+    margin: 0 0 0 650px;
+}
+
+.nav-custom a {
+    color: white;
+}
+
+/* navbar */
+
+/* Main section */
+.main {
+    margin: 70px 0 0 0;
+}
+
+.main h1 {
+    color: white;
+    font-size: 70px;
+}
+
+.main p {
+    color: white;
+    font: 15px;
+    margin: 10px 0 0 0 ;
+}
+
+.main button{
+    margin: 50px 0 0 0;
+}
+
+.main img {
+    width: 400px;
+    height: 500px;
+    border-radius: 100px 100px 0 0;
+    box-shadow: 10px 10px 8px white;
+    margin: 0 0 -15px 30px;
+}
+
+.mainImage {
+    animation: slideUp 1s ease;
+}
+
+.mainText {
+    animation: slideIn 3s ease;
+}
+
+@keyframes slideUp {
+    from {
+        margin-top: -200px;
+    }
+    to {
+        margin-top: 0px;
+    }
+}
+
+@keyframes slideIn {
+    from {
+        margin-left: -300px;
+    }
+    to {
+        margin-left: 0px;
+    }
+}
+
+/* Last Main Section */
+
+/* Cluster */
+
+.cluster {
+    margin-top: 100px;
+    animation: upToDown 3s ease;
+}
+
+.clusterText p {
+    color: orangered;
+    font-size: 18px;
+}
+
+.clusterText h2 {
+    color: #646FD4;
+    font-size: 40px;
+}
+
+.clusterImg img {
+    width: 300px;
+    height: 200px;
+    margin: 30px 0 0 0;
+    border-radius: 20px;
+}
+
+.clusterImg h3 {
+    color: #646FD4;
+}
+
+.cluster:hover {
+    animation: upToDown 3s ease;
+}
+
+.clusterImg img:hover {
+    width: 310px;
+    height: 210px;
+    box-shadow: 5px 5px 7px orangered;
+}
+
+@keyframes upToDown {
+    from {
+        margin-top: -100px;
+        opacity: 0%;
+    }
+    to {
+        margin-top: 100px;
+        opacity: 100%;
+    }
+}
+
+hr {
+    border-top: 7px solid black;
+    width: 700px;
+    margin: auto;
+}
+
+.value {
+    margin: 240px 0 0 0;
+}
+
+.valueImg img {
+    width: 400px;
+    height: 500px;
+    border-radius: 100px 100px 0 0;
+    box-shadow: 10px 10px 8px black;
+}
+
+.valueImg p {
+    color: orangered;
+    font-size: 18px;
+}
+
+.valueImg h2 {
+    color: blue;
+    font-size: 40px;
+}
+
+.list-group {
+    margin-top: 40px;
+}
+
+.list-group-item {
+    font-size: 18px;
+}
+
+/* last value */
+
+/* footer */
+
+.footer {
+    background-color: black;
+    text-align: center;
+    margin-top: 200px;
+}
+
+.footer p {
+    font-size: 14px;
+    color: white;
+    margin-top: 10px;
+}
+
+/* last footer */
